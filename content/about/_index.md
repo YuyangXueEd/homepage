@@ -1,7 +1,14 @@
 ---
-title: "Hello, I am Yuyang."
 date: 2024-05-05
 ---
+
+{{< typeit 
+  tag=h1
+  lifeLike=true
+  loop=true
+>}}
+Hello, I am Yuyang. 
+{{< /typeit >}}
 
 ## Biography
 
