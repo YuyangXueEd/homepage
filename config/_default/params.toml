@@ -54,6 +54,7 @@ showZenMode = false
 heroStyle = "background"
 showRelatedContent = false
 relatedContentLimit = "1"
+showComments = true
 
 [list]
 showHero = true
