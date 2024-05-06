@@ -1,5 +1,5 @@
 ---
-title: "Implementing Seemore: A VLM from Scratch in PyTorch and a single A100"
+title: "Implementing Seemore: A VLM from Scratch in PyTorch"
 date: 2024-05-06
 draft: false
 description: "Re-implementation of seemore."
