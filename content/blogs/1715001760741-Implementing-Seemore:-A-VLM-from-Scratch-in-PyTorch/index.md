@@ -10,8 +10,6 @@ tags: ["VLM", "Implementation"]
 This blog is a implmentation of [Seemore](https://huggingface.co/blog/AviSoori1x/seemore-vision-language-model) from huggingface blog. 
 {{< /alert >}}
 
-{{< github repo="AviSoori1x/seemore" >}}
-
 I am doing my project on "Vision-Language Model (VLM) Unlearning" and first I need to get more understanding of VLM. I just came across a article from huggingface blog and I found it interesting.
 
 Here I will record my implementation details with the seemore tutorial and note what is important.
