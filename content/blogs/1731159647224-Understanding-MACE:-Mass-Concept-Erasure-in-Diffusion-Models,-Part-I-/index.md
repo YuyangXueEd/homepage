@@ -4,7 +4,7 @@ date: 2024-11-09
 draft: false
 series: ["MACE"]
 series_order: 1
-description: "CVPR 2024 Paper"
+description: "CVPR 2024 Paper Overview"
 tags: ["machine unlearning", "concept erasure"]
 ---
 

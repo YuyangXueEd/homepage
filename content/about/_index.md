@@ -1,5 +1,6 @@
 ---
 date: 2024-05-05
+layout: "simple"
 ---
 
 {{< typeit 
@@ -13,15 +14,6 @@ Hello, I am Yuyang.
 
 {{< timeline >}}
 
-
-{{< timelineItem icon="star" header="Gallery" >}}
-{{< gallery >}}
-<img src="gallery/01.JPG" class="grid-w66" />
-<img src="gallery/03.jpg" class="grid-w33" />
-{{< /gallery >}}
-{{< /timelineItem >}}
-
-
 {{< timelineItem icon="graduation-cap" header="Biography" >}}
 
 Xue Yuyang is currently pursuing a Ph.D. in the Department of Engineering at the University of Edinburgh, focusing on cutting-edge fields such as adversarial machine learning, vision-language models, and medical image processing. He is supervised by <a href="https://vios.science/team/tsaftaris">Prof. Sotirios Tsaftaris</a>. He has established broad and in-depth collaborations with various international and domestic research institutions, including the UK Engineering and Physical Sciences Research Council (EPSRC)-funded Center for Healthcare AI and Real Data Causality AI (CHAI), Canon Europe Medical Headquarters, the Archimedes Research Center of AI Excellence in Athens, Greece, and the Fujian Province Key Laboratory of Medical Devices and Pharmaceutical Technology.
@@ -33,6 +25,17 @@ He was invited to organize a tutorial at the 2024 International Symposium on Bio
 You can find more from my <a href="docs/Yuyang_CV.pdf">CV</a>, <a href="docs/zh_Yuyang_CV.pdf">Chinese CV</a>.
 
 {{< /timelineItem >}}
+
+
+{{< timelineItem icon="star" header="Me" >}}
+{{< gallery >}}
+<img src="gallery/01.JPG" class="grid-w66" />
+<img src="gallery/03.jpg" class="grid-w33" />
+{{< /gallery >}}
+{{< /timelineItem >}}
+
+
+
 
 
 {{< timelineItem icon="comment" header="Talks" >}}
