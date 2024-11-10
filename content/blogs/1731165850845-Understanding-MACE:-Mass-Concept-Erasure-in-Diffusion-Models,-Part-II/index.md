@@ -27,8 +27,11 @@ In machine unlearning, a standard way of forgetting a concept is to find an anch
 
 ![closed-form refinement](closed-form_refinement.png)
 
+They fomulated the objective function as follows:
 
-
+$$
+\displaystyle \underset{W_{k}^{'}}{\min}\sum _{i=1}^{n} \| W_{k}^{'} \ \cdot e_{i}^{f} -W_{k}^{'} \ \cdot e_{i}^{g} \| _{2}^{2} +\lambda _{1}\sum _{i=n+1}^{n+m} \| W_{k}^{'} \ \cdot e_{i}^{p} -W_{k}^{'} \ \cdot e_{i}^{p} \| _{2}^{2}
+$$
 
 
 [^p1]: Lu, Shilin, et al. "Mace: Mass concept erasure in diffusion models." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024.
