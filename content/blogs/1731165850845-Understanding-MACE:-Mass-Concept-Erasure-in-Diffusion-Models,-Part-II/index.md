@@ -4,7 +4,7 @@ date: 2024-11-09
 draft: false
 series: ["MACE"]
 series_order: 2
-description: "Closed-form refinement, LoRA and Fusion"
+description: "Closed-form refinement"
 tags: ["machine unlearning", "concept erasure"]
 ---
 

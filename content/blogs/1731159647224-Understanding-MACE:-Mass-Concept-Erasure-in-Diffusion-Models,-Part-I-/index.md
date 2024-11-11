@@ -60,6 +60,19 @@ Here is the overview of the MACE framework.
 
 ![MACE framework](MACE_framework.png "MACE Framework.")
 
+## Data preparation
+
+Since MACE requires not only unlearning prompts but also the generated images and their segmentations as input, we need to prepare data for the later use of unlearning. As depicted in the README file, MACE relies on GroundingDINO and Segment Anything as essential packages to generate the intended masks. I found that configuring a specific CUDA environment is not convenient, particularly for some Docker users who cannot access CUDA support when building their Docker images. Thanks to `transformers` library, I can directly use the built-in `IDEA-Research/grounding-dino-base` for the detector and `facebook/sam-vit-huge` for segmenter. Please refer to the [pull request](https://github.com/Shilin-LU/MACE/pull/18) for more details.The code is specified in `data_preparation_transformers.py`:
+
+{{<codeimporter url="https://raw.githubusercontent.com/Shilin-LU/MACE/refs/heads/main/data_preparation_transformers.py" type="python" >}}
+
+In this case, it would be much easier to generate the corresponding mask instead of configuring the environment. 
+
+{{< alert >}}
+**Warning!** There is an issue of warning like `Could not load the custom kernel for multi-scale deformable attention: .torch/torch_extensions/MultiScaleDeformableAttention/MultiScaleDeformableAttention.so: cannot open shared object file: No such file or directory`. However, this would not bother the generation of the mask. Please refer to the related topic here: [Huggingface Forum](https://huggingface.co/IDEA-Research/grounding-dino-base/discussions/4#67178e12d49645a28cfad0af)
+{{< /alert >}}
+
+
 In the next article, I will delve into each aspect of the method in further detail and supplement the discussion with code analysis.
 
 
