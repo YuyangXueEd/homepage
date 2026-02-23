@@ -1,0 +1,15 @@
+{{ $count := int (.Get "count" | default 10) }}
+{{ $newsPage := site.GetPage "/news" }}
+{{ with $newsPage }}
+  {{ $items := .Params.items }}
+  {{ range first $count $items }}
+  <div style="display:flex; gap:1rem; margin-bottom:0.6rem; align-items:baseline;">
+    <span style="white-space:nowrap; font-weight:600; color: var(--tw-prose-headings, currentColor); min-width:7rem; font-size:0.9em;">
+      {{ .date }}
+    </span>
+    <span>{{ .text | markdownify }}</span>
+  </div>
+  {{ end }}
+{{ else }}
+  <p><em>No news found.</em></p>
+{{ end }}

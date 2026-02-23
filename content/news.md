@@ -1,0 +1,27 @@
+---
+title: "News & Updates"
+_build:
+  render: "never"
+  list: "never"
+items:
+  - date: "Feb, 2026"
+    text: "Passed my PhD Viva at the University of Edinburgh. 🎓"
+  - date: "Aug, 2025"
+    text: "Paper [SWiFT: Soft-Mask Weight Fine-tuning for Bias Mitigation](https://arxiv.org/abs/2508.18826) published in MELBA."
+  - date: "Mar, 2025"
+    text: "Paper [CRCE: Coreference-Retention Concept Erasure in Text-to-Image Diffusion Models](https://arxiv.org/abs/2503.14232) accepted at BMVC 2025."
+  - date: "Oct, 2024"
+    text: "Oral presentation at MICCAI 2024 FAIMI Workshop for [BMFT](https://arxiv.org/abs/2408.06890)."
+  - date: "Jun, 2024"
+    text: "Paper [Erase to Enhance: Data-Efficient Machine Unlearning in MRI Reconstruction](https://arxiv.org/abs/2405.15517) accepted at MIDL 2024."
+  - date: "May, 2024"
+    text: "Invited speaker at MLIS 2024. Talk on machine unlearning in MRI reconstruction."
+  - date: "May, 2024"
+    text: "Tutorial [DiMEDIA: Diffusion Models in Medical Imaging and Analysis](https://vios.science/tutorials/DiMEDIA-2024) at ISBI 2024."
+  - date: "Mar, 2024"
+    text: "Paper [Inference Stage Denoising for Undersampled MRI Reconstruction](https://arxiv.org/abs/2402.08692) accepted at ISBI 2024."
+  - date: "Sep, 2023"
+    text: "Paper on Cine Cardiac MRI Reconstruction accepted at STACOM@MICCAI 2023."
+  - date: "Jun, 2023"
+    text: "Paper on Stereo Cross Global Learnable Attention accepted at CVPR 2023 NTIRE Workshop."
+---
