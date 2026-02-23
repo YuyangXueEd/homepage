@@ -12,7 +12,7 @@
   {{ with $newsPage }}
     {{ $items := .Params.items }}
     {{ if $items }}
-    <section class="max-w-7xl mx-auto px-6 py-8">
+    <section class="py-8">
       <h2 class="text-2xl font-bold mb-4 prose dark:prose-invert">News &amp; Updates</h2>
       <div class="prose dark:prose-invert max-w-none">
         {{ range first 10 $items }}
