@@ -13,7 +13,7 @@ title = "Yuyang's Blog"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-[author]
+[params.author]
   name = "Yuyang Xue"
   image = "img/me.jpeg"
   headline = "PhD Student, University of Edinburgh"
