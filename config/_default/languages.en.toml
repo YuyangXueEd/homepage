@@ -16,8 +16,8 @@ title = "Yuyang's Blog"
 [params.author]
   name = "Yuyang Xue"
   image = "img/me.jpeg"
-  headline = "PhD Student, University of Edinburgh"
-  bio = "PhD Student, University of Edinburgh"
+  headline = "PhD, University of Edinburgh"
+  bio = "PhD, University of Edinburgh"
   links = [
     { email = "mailto:yuyang.xue@ed.ac.uk" },
 #     { link = "https://link-to-some-website.com/" },

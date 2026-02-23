@@ -1,0 +1,35 @@
+[[main]]
+ name = "关于"
+ pageRef = "about"
+ weight = 1
+
+[[main]]
+ name = "出版物"
+ pageRef = "Publications"
+ weight = 5
+
+[[main]]
+ name = "博客"
+ pageRef = "blogs"
+ weight = 10
+
+[[main]]
+ name = "其他"
+ weight = 20
+
+[[main]]
+ name = "音乐"
+ parent = "其他"
+ pageRef = "music"
+ weight = 21
+
+[[main]]
+ name = "电影"
+ parent = "其他"
+ pageRef = "movies"
+ weight = 22
+
+[[main]]
+ name = "标签"
+ pageRef = "tags"
+ weight = 30

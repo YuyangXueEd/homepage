@@ -1,0 +1,25 @@
+languageCode = "zh-cn"
+languageName = "简体中文"
+weight = 2
+title = "薛雨阳的博客"
+
+[params]
+  displayName = "简体中文"
+  isoCode = "zh-cn"
+  rtl = false
+  dateFormat = "2006年1月2日"
+
+[params.author]
+  name = "薛雨阳"
+  image = "img/me.jpeg"
+  headline = "爱丁堡大学 博士"
+  bio = "爱丁堡大学 博士"
+  links = [
+    { email = "mailto:yuyang.xue@ed.ac.uk" },
+    { github = "https://github.com/YuyangXueEd" },
+    { linkedin = "https://www.linkedin.com/in/yuyang-xue-288175301" },
+    { orcid = "https://orcid.org/0000-0002-2281-9418" },
+    { researchgate = "https://www.researchgate.net/profile/Yuyang-Xue-2" },
+    { x-twitter = "https://x.com/yuyang_xue_ed" },
+    { ko-fi = "https://ko-fi.com/username" },
+  ]
