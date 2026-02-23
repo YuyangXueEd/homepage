@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "code-review": {
+      "source": "secondsky/claude-skills",
+      "sourceType": "github",
+      "computedHash": "d8774746e62d3bfc4646b15d5bd71a41a9e9fee118d19cab3b3a6f75742fcb47"
+    },
+    "image-optimization": {
+      "source": "secondsky/claude-skills",
+      "sourceType": "github",
+      "computedHash": "56dfbd844a92bbaad340f16b44c49f4168f2d4538f885bf638ecad8ed55781b6"
+    },
+    "mcp-management": {
+      "source": "secondsky/claude-skills",
+      "sourceType": "github",
+      "computedHash": "ed1c55e983661550e9aa535140bce03ebc1213d2ae15f5d3a918e9babd548ca0"
+    },
+    "vercel-react-best-practices": {
+      "source": "secondsky/claude-skills",
+      "sourceType": "github",
+      "computedHash": "639d34d324958f518c07eec675d86eeba7c3a4ab8b1bb57637020fe145c246e1"
+    }
+  }
+}

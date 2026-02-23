@@ -14,3 +14,7 @@ public
 
 
 .idea
+
+.agent/
+.agents/
+.claude/
