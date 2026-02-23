@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: homepage
-    env: static
-    buildCommand: bash build.sh
-    staticPublishPath: ./public

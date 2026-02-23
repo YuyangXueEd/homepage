@@ -1,5 +1,9 @@
-#others
+# Dependencies
 node_modules
+
+# Hugo build artifacts
+public
+resources/_gen
 .hugo_build.lock
 
 # OS generated files
@@ -9,12 +13,11 @@ node_modules
 .Spotlight-V100
 .Trashes
 
-# Hugo
-public
-
-
+# IDE
 .idea
 
+# Claude Code internals
 .agent/
 .agents/
 .claude/
+skills-lock.json
