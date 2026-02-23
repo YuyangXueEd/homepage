@@ -5,12 +5,12 @@
 
 [[main]]
  name = "出版物"
- pageRef = "Publications"
+ url = "/Publications/"
  weight = 5
 
 [[main]]
  name = "博客"
- pageRef = "blogs"
+ url = "/blogs/"
  weight = 10
 
 [[main]]
@@ -20,16 +20,16 @@
 [[main]]
  name = "音乐"
  parent = "其他"
- pageRef = "music"
+ url = "/music/"
  weight = 21
 
 [[main]]
  name = "电影"
  parent = "其他"
- pageRef = "movies"
+ url = "/movies/"
  weight = 22
 
 [[main]]
  name = "标签"
- pageRef = "tags"
+ url = "/tags/"
  weight = 30
