@@ -1,0 +1,27 @@
+---
+title: "新闻与动态"
+_build:
+  render: "never"
+  list: "never"
+items:
+  - date: "2026年 2月"
+    text: "在爱丁堡大学顺利通过了博士答辩。🎓"
+  - date: "2025年 8月"
+    text: "论文 [SWiFT: Soft-Mask Weight Fine-tuning for Bias Mitigation](https://arxiv.org/abs/2508.18826) 发表在 MELBA。"
+  - date: "2025年 3月"
+    text: "论文 [CRCE: Coreference-Retention Concept Erasure in Text-to-Image Diffusion Models](https://arxiv.org/abs/2503.14232) 被 BMVC 2025 接收。"
+  - date: "2024年 10月"
+    text: "在 MICCAI 2024 FAIMI 研讨会上进行了关于 [BMFT](https://arxiv.org/abs/2408.06890) 的口头报告。"
+  - date: "2024年 6月"
+    text: "论文 [Erase to Enhance: Data-Efficient Machine Unlearning in MRI Reconstruction](https://arxiv.org/abs/2405.15517) 被 MIDL 2024 接收。"
+  - date: "2024年 5月"
+    text: "受邀在 MLIS 2024 上发表演讲，主题为 MRI 重建中的机器去学习。"
+  - date: "2024年 5月"
+    text: "在 ISBI 2024 举办教程 [DiMEDIA: Diffusion Models in Medical Imaging and Analysis](https://vios.science/tutorials/DiMEDIA-2024)。"
+  - date: "2024年 3月"
+    text: "论文 [Inference Stage Denoising for Undersampled MRI Reconstruction](https://arxiv.org/abs/2402.08692) 被 ISBI 2024 接收。"
+  - date: "2023年 9月"
+    text: "关于电影心脏 MRI 重建的论文被 STACOM@MICCAI 2023 接收。"
+  - date: "2023年 6月"
+    text: "关于立体交叉全局可学习注意力的论文被 CVPR 2023 NTIRE 研讨会接收。"
+---
