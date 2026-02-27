@@ -1,0 +1,15 @@
+/* Widen the article content area from default 65ch (~640px) to 80ch (~800px) */
+.article-content.max-w-prose,
+section.prose .article-content {
+  max-width: 80ch !important;
+}
+
+/* Also widen the header to match */
+header#single_header.max-w-prose {
+  max-width: 80ch !important;
+}
+
+/* Widen the footer (comments, pagination) to match */
+footer.max-w-prose {
+  max-width: 80ch !important;
+}
