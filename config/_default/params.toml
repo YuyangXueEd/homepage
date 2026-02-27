@@ -99,7 +99,10 @@ cardViewScreenWidth = false
 [fathomAnalytics]
 
 [umamiAnalytics]
+websiteid = "43f80829-2eae-41a9-9d0e-51cd2dc7c239"
+domain = "cloud.umami.is"
 
 [buymeacoffee]
 
 [verification]
+google = "B7b4K-aaGh9uF0Sj4GJdw3LYJJqmSOw3oj0rOSFDc2w"
