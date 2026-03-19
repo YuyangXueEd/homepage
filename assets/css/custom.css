@@ -13,3 +13,179 @@ header#single_header.max-w-prose {
 footer.max-w-prose {
   max-width: 80ch !important;
 }
+
+/* === Dark mode: catppuccin-macchiato === */
+html.dark .bg { color:#cad3f5;background-color:#24273a; }
+html.dark .chroma { color:#cad3f5;background-color:#24273a; }
+html.dark .chroma .x {  }
+html.dark .chroma .err { color:#ed8796 }
+html.dark .chroma .cl {  }
+html.dark .chroma .lnlinks { outline:none;text-decoration:none;color:inherit }
+html.dark .chroma .lntd { vertical-align:top;padding:0;margin:0;border:0; }
+html.dark .chroma .lntable { border-spacing:0;padding:0;margin:0;border:0; }
+html.dark .chroma .hl { background-color:#494d64 }
+html.dark .chroma .lnt { white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#8087a2 }
+html.dark .chroma .ln { white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#8087a2 }
+html.dark .chroma .line { display:flex; }
+html.dark .chroma .k { color:#c6a0f6 }
+html.dark .chroma .kc { color:#f5a97f }
+html.dark .chroma .kd { color:#ed8796 }
+html.dark .chroma .kn { color:#8bd5ca }
+html.dark .chroma .kp { color:#c6a0f6 }
+html.dark .chroma .kr { color:#c6a0f6 }
+html.dark .chroma .kt { color:#ed8796 }
+html.dark .chroma .n {  }
+html.dark .chroma .na { color:#8aadf4 }
+html.dark .chroma .nb { color:#91d7e3 }
+html.dark .chroma .bp { color:#91d7e3 }
+html.dark .chroma .nc { color:#eed49f }
+html.dark .chroma .no { color:#eed49f }
+html.dark .chroma .nd { color:#8aadf4;font-weight:bold }
+html.dark .chroma .ni { color:#8bd5ca }
+html.dark .chroma .ne { color:#f5a97f }
+html.dark .chroma .nf { color:#8aadf4 }
+html.dark .chroma .fm { color:#8aadf4 }
+html.dark .chroma .nl { color:#91d7e3 }
+html.dark .chroma .nn { color:#f5a97f }
+html.dark .chroma .nx {  }
+html.dark .chroma .py { color:#f5a97f }
+html.dark .chroma .nt { color:#c6a0f6 }
+html.dark .chroma .nv { color:#f4dbd6 }
+html.dark .chroma .vc { color:#f4dbd6 }
+html.dark .chroma .vg { color:#f4dbd6 }
+html.dark .chroma .vi { color:#f4dbd6 }
+html.dark .chroma .vm { color:#f4dbd6 }
+html.dark .chroma .l {  }
+html.dark .chroma .ld {  }
+html.dark .chroma .s { color:#a6da95 }
+html.dark .chroma .sa { color:#ed8796 }
+html.dark .chroma .sb { color:#a6da95 }
+html.dark .chroma .sc { color:#a6da95 }
+html.dark .chroma .dl { color:#8aadf4 }
+html.dark .chroma .sd { color:#6e738d }
+html.dark .chroma .s2 { color:#a6da95 }
+html.dark .chroma .se { color:#8aadf4 }
+html.dark .chroma .sh { color:#6e738d }
+html.dark .chroma .si { color:#a6da95 }
+html.dark .chroma .sx { color:#a6da95 }
+html.dark .chroma .sr { color:#8bd5ca }
+html.dark .chroma .s1 { color:#a6da95 }
+html.dark .chroma .ss { color:#a6da95 }
+html.dark .chroma .m { color:#f5a97f }
+html.dark .chroma .mb { color:#f5a97f }
+html.dark .chroma .mf { color:#f5a97f }
+html.dark .chroma .mh { color:#f5a97f }
+html.dark .chroma .mi { color:#f5a97f }
+html.dark .chroma .il { color:#f5a97f }
+html.dark .chroma .mo { color:#f5a97f }
+html.dark .chroma .o { color:#91d7e3;font-weight:bold }
+html.dark .chroma .ow { color:#91d7e3;font-weight:bold }
+html.dark .chroma .p {  }
+html.dark .chroma .c { color:#6e738d;font-style:italic }
+html.dark .chroma .ch { color:#6e738d;font-style:italic }
+html.dark .chroma .cm { color:#6e738d;font-style:italic }
+html.dark .chroma .c1 { color:#6e738d;font-style:italic }
+html.dark .chroma .cs { color:#6e738d;font-style:italic }
+html.dark .chroma .cp { color:#6e738d;font-style:italic }
+html.dark .chroma .cpf { color:#6e738d;font-weight:bold;font-style:italic }
+html.dark .chroma .g {  }
+html.dark .chroma .gd { color:#ed8796;background-color:#363a4f }
+html.dark .chroma .ge { font-style:italic }
+html.dark .chroma .gr { color:#ed8796 }
+html.dark .chroma .gh { color:#f5a97f;font-weight:bold }
+html.dark .chroma .gi { color:#a6da95;background-color:#363a4f }
+html.dark .chroma .go {  }
+html.dark .chroma .gp {  }
+html.dark .chroma .gs { font-weight:bold }
+html.dark .chroma .gu { color:#f5a97f;font-weight:bold }
+html.dark .chroma .gt { color:#ed8796 }
+html.dark .chroma .gl { text-decoration:underline }
+html.dark .chroma .w {  }
+
+/* === Light mode: catppuccin-latte === */
+html:not(.dark) .bg { color:#4c4f69;background-color:#eff1f5; }
+html:not(.dark) .chroma { color:#4c4f69;background-color:#eff1f5; }
+html:not(.dark) .chroma .x {  }
+html:not(.dark) .chroma .err { color:#d20f39 }
+html:not(.dark) .chroma .cl {  }
+html:not(.dark) .chroma .lnlinks { outline:none;text-decoration:none;color:inherit }
+html:not(.dark) .chroma .lntd { vertical-align:top;padding:0;margin:0;border:0; }
+html:not(.dark) .chroma .lntable { border-spacing:0;padding:0;margin:0;border:0; }
+html:not(.dark) .chroma .hl { background-color:#bcc0cc }
+html:not(.dark) .chroma .lnt { white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#8c8fa1 }
+html:not(.dark) .chroma .ln { white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#8c8fa1 }
+html:not(.dark) .chroma .line { display:flex; }
+html:not(.dark) .chroma .k { color:#8839ef }
+html:not(.dark) .chroma .kc { color:#fe640b }
+html:not(.dark) .chroma .kd { color:#d20f39 }
+html:not(.dark) .chroma .kn { color:#179299 }
+html:not(.dark) .chroma .kp { color:#8839ef }
+html:not(.dark) .chroma .kr { color:#8839ef }
+html:not(.dark) .chroma .kt { color:#d20f39 }
+html:not(.dark) .chroma .n {  }
+html:not(.dark) .chroma .na { color:#1e66f5 }
+html:not(.dark) .chroma .nb { color:#04a5e5 }
+html:not(.dark) .chroma .bp { color:#04a5e5 }
+html:not(.dark) .chroma .nc { color:#df8e1d }
+html:not(.dark) .chroma .no { color:#df8e1d }
+html:not(.dark) .chroma .nd { color:#1e66f5;font-weight:bold }
+html:not(.dark) .chroma .ni { color:#179299 }
+html:not(.dark) .chroma .ne { color:#fe640b }
+html:not(.dark) .chroma .nf { color:#1e66f5 }
+html:not(.dark) .chroma .fm { color:#1e66f5 }
+html:not(.dark) .chroma .nl { color:#04a5e5 }
+html:not(.dark) .chroma .nn { color:#fe640b }
+html:not(.dark) .chroma .nx {  }
+html:not(.dark) .chroma .py { color:#fe640b }
+html:not(.dark) .chroma .nt { color:#8839ef }
+html:not(.dark) .chroma .nv { color:#dc8a78 }
+html:not(.dark) .chroma .vc { color:#dc8a78 }
+html:not(.dark) .chroma .vg { color:#dc8a78 }
+html:not(.dark) .chroma .vi { color:#dc8a78 }
+html:not(.dark) .chroma .vm { color:#dc8a78 }
+html:not(.dark) .chroma .l {  }
+html:not(.dark) .chroma .ld {  }
+html:not(.dark) .chroma .s { color:#40a02b }
+html:not(.dark) .chroma .sa { color:#d20f39 }
+html:not(.dark) .chroma .sb { color:#40a02b }
+html:not(.dark) .chroma .sc { color:#40a02b }
+html:not(.dark) .chroma .dl { color:#1e66f5 }
+html:not(.dark) .chroma .sd { color:#9ca0b0 }
+html:not(.dark) .chroma .s2 { color:#40a02b }
+html:not(.dark) .chroma .se { color:#1e66f5 }
+html:not(.dark) .chroma .sh { color:#9ca0b0 }
+html:not(.dark) .chroma .si { color:#40a02b }
+html:not(.dark) .chroma .sx { color:#40a02b }
+html:not(.dark) .chroma .sr { color:#179299 }
+html:not(.dark) .chroma .s1 { color:#40a02b }
+html:not(.dark) .chroma .ss { color:#40a02b }
+html:not(.dark) .chroma .m { color:#fe640b }
+html:not(.dark) .chroma .mb { color:#fe640b }
+html:not(.dark) .chroma .mf { color:#fe640b }
+html:not(.dark) .chroma .mh { color:#fe640b }
+html:not(.dark) .chroma .mi { color:#fe640b }
+html:not(.dark) .chroma .il { color:#fe640b }
+html:not(.dark) .chroma .mo { color:#fe640b }
+html:not(.dark) .chroma .o { color:#04a5e5;font-weight:bold }
+html:not(.dark) .chroma .ow { color:#04a5e5;font-weight:bold }
+html:not(.dark) .chroma .p {  }
+html:not(.dark) .chroma .c { color:#9ca0b0;font-style:italic }
+html:not(.dark) .chroma .ch { color:#9ca0b0;font-style:italic }
+html:not(.dark) .chroma .cm { color:#9ca0b0;font-style:italic }
+html:not(.dark) .chroma .c1 { color:#9ca0b0;font-style:italic }
+html:not(.dark) .chroma .cs { color:#9ca0b0;font-style:italic }
+html:not(.dark) .chroma .cp { color:#9ca0b0;font-style:italic }
+html:not(.dark) .chroma .cpf { color:#9ca0b0;font-weight:bold;font-style:italic }
+html:not(.dark) .chroma .g {  }
+html:not(.dark) .chroma .gd { color:#d20f39;background-color:#ccd0da }
+html:not(.dark) .chroma .ge { font-style:italic }
+html:not(.dark) .chroma .gr { color:#d20f39 }
+html:not(.dark) .chroma .gh { color:#fe640b;font-weight:bold }
+html:not(.dark) .chroma .gi { color:#40a02b;background-color:#ccd0da }
+html:not(.dark) .chroma .go {  }
+html:not(.dark) .chroma .gp {  }
+html:not(.dark) .chroma .gs { font-weight:bold }
+html:not(.dark) .chroma .gu { color:#fe640b;font-weight:bold }
+html:not(.dark) .chroma .gt { color:#d20f39 }
+html:not(.dark) .chroma .gl { text-decoration:underline }
+html:not(.dark) .chroma .w {  }
