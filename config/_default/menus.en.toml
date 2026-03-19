@@ -26,6 +26,11 @@
  weight = 10
 
 [[main]]
+ name = "GameDev"
+ pageRef = "gamedev"
+ weight = 15
+
+[[main]]
  name = "Miscs"
  weight = 20
 
